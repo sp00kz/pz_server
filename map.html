@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Zomboid — Interactive Map</title>
+<meta name="description" content="Interactive isometric Project Zomboid map (Build 42): vanilla Knox County plus installed mod maps, with buildings coloured by loot type.">
+<meta name="author" content="sp00kz">
+<style>
+  :root { --bg:#14110d; --panel:#1d1913; --line:#3a3024; --txt:#e8dcc4; --muted:#9b8f76; --accent:#c9a14a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; }
+  body { display:flex; flex-direction:column; font:14px/1.4 "Segoe UI",system-ui,sans-serif; background:var(--bg); color:var(--txt); }
+  header { padding:16px 20px; border-bottom:1px solid var(--line); background:var(--panel); flex:none; }
+  nav { margin-bottom:8px; font-size:13px; }
+  nav a { color:var(--muted); text-decoration:none; padding:3px 9px; border:1px solid var(--line); border-radius:6px; margin-right:6px; }
+  nav a.active { color:var(--accent); border-color:var(--accent); }
+  nav a:hover { color:var(--txt); }
+  h1 { margin:0 0 4px; font-size:20px; color:var(--accent); letter-spacing:.5px; }
+  .sub { color:var(--muted); font-size:12px; }
+  iframe { flex:1; width:100%; border:none; background:#0c0e11; }
+</style></head><body>
+<header><nav><a href="map.html" class="active">🗺️ Map</a><a href="index.html">🏠 Home</a><a href="seeds.html">🌱 Seeds</a><a href="cars.html">🚗 Vehicles</a><a href="livestock.html">🐄 Livestock</a><a href="guns.html">🔫 Guns</a><a href="melee.html">🗡️ Melee</a><a href="tools.html">🧰 Tools</a><a href="crafting.html">🛠️ Crafting</a><a href="food.html">🍎 Food</a><a href="foraging.html">🌲 Foraging</a><a href="fishing.html">🎣 Fishing</a><a href="actions.html">⭐ Action XP</a></nav>
+  <h1>Interactive Map</h1>
+  <div class="sub">Vanilla Knox County — no supported mod maps installed</div>
+</header>
+<iframe src="https://sp00kz.github.io/pz_map/" title="Project Zomboid interactive map" loading="lazy"></iframe>
+</body></html>
